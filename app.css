@@ -1,0 +1,41 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+
+#navs {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#navs .navbar-brand {
+  color: #ea1c2c;
+}
+
+#navs .nav-link {
+  color: white;
+}
+
+#navs .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#head span {
+  color: #ea1c2c;
+}
+
+#head h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #head span {
+    color: #ea1c2c;
+  }
+  #head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=app.css.map */

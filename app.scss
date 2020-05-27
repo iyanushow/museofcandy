@@ -1,0 +1,36 @@
+body 
+{
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+$navColor: #ea1c2c;
+
+#navs 
+{
+    
+    font-size: 1.5rem;
+    font-weight: 100;
+
+    .navbar-brand
+    {
+        color: $navColor;  
+    }
+    .nav-link{
+        color: white;
+        &:hover{
+            color:$navColor ;
+        }
+    }
+}
+#head{
+    span
+    {
+        color: $navColor;
+    }
+    h1{
+        font-weight: 100;
+        font-size: 4rem;
+    }
+}
+@import "./mediaQuery"
